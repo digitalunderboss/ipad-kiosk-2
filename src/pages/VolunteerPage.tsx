@@ -197,16 +197,17 @@ export default function VolunteerPage() {
   });
 
   const volunteerOptions = [
-    'ANYA',
-    'AV', 
-    'AY',
+    'ANYA (Young Adult +18yr)',
+    'AV (Audio/Visual)',
+    'AY (Adventist Youth)',
     'Deacon/Deaconess',
     'Decorating Committee',
-    'Health',
+    'Health Ministry',
     'Homeless Ministry',
     'Men\'s Ministry',
     'Pathfinders',
-    'Personal Ministry'
+    'Personal Ministry',
+    'Women\'s Ministry',
   ];
 
   // Check if form is valid (both fields have content and at least one checkbox is selected)
@@ -288,7 +289,7 @@ export default function VolunteerPage() {
         <div className={styles.formContainer}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px", marginBottom: "32px" }}>
             <Text size={800} weight="semibold" style={{ fontSize: "40px", color: "#323130" }}>
-             Become a fellow servant of Christ
+             Become a Christ-like Servant Leader.
             </Text>
           </div>
 

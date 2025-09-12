@@ -247,7 +247,7 @@ export default function BibleStudyPage() {
         <div className={styles.formContainer}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px", marginBottom: "32px" }}>
             <Text size={800} weight="semibold" style={{ fontSize: "40px", color: "#323130" }}>
-              Join a Bible Study Group
+              Join a Bible Study Group.
             </Text>
             <Text size={500} style={{ 
               maxWidth: "600px", 
@@ -256,7 +256,7 @@ export default function BibleStudyPage() {
               fontSize: "20px",
               lineHeight: "1.4"
             }}>
-              Fill out your information so we can fellowship together.
+              Let's study God's Word together.
             </Text>
           </div>
 

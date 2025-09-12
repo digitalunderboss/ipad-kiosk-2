@@ -247,7 +247,7 @@ export default function MembershipPage() {
         <div className={styles.formContainer}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px", marginBottom: "32px" }}>
             <Text size={800} weight="semibold" style={{ fontSize: "40px", color: "#323130" }}>
-             Come fellowship with us
+             Let's do ministry together.
             </Text>
             <Text size={500} style={{ 
               maxWidth: "600px", 
