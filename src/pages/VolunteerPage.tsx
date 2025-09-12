@@ -237,7 +237,7 @@ export default function VolunteerPage() {
         name: formData.name,
         email: formData.email,
         type: 'Volunteer',
-        interests: formData.interests
+        interests: formData.interests.join(', '),
       });
     }
   };

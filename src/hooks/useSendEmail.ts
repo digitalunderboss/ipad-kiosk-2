@@ -4,7 +4,7 @@ interface EmailData {
   name: string;
   email: string;
   type: string;
-  interests?: string[];
+  interests?: string;
 }
 
 interface UseSendEmailReturn {
