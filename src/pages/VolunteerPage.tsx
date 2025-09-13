@@ -15,7 +15,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useSendEmail } from "../hooks/useSendEmail";
-import jesus from '../assets/jesus-mosaic.jpg';
+import church from '../assets/church.jpeg';
 
 const useStyles = makeStyles({
   container: {
@@ -266,7 +266,7 @@ export default function VolunteerPage() {
       {/* Header with background image */}
       <div className={styles.headerContainer}>
         <img
-          src={jesus}
+          src={church}
           alt="Mosaic of Jesus holding a book"
           className={styles.headerImage}
         />

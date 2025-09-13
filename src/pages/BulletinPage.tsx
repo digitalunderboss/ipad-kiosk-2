@@ -11,7 +11,7 @@ import {
   ArrowLeft24Regular,
   QrCode24Regular
 } from "@fluentui/react-icons";
-import jesus from '../assets/jesus-mosaic.jpg';
+import church from '../assets/church.jpeg';
 import bulletin from '../assets/bulletin.png';
 
 const useStyles = makeStyles({
@@ -102,7 +102,7 @@ export default function BulletinPage() {
       {/* Header with background image */}
       <div className={styles.headerContainer}>
         <img
-          src={jesus}
+          src={church}
           alt="Mosaic of Jesus holding a book"
           className={styles.headerImage}
         />

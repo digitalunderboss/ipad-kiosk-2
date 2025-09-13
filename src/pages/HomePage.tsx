@@ -14,7 +14,7 @@ import {
   Heart24Regular 
 } from "@fluentui/react-icons";
 import { useNavigate } from "react-router-dom";
-import jesus from '../assets/jesus-mosaic.jpg';
+import church from '../assets/church.jpeg';
 import { useSendEmail } from "../hooks/useSendEmail";
 import { useEffect } from "react";
 
@@ -164,7 +164,7 @@ export default function HomePage() {
       {/* Header with background image */}
       <div className={styles.headerContainer}>
         <ImageWithFallback
-          src={jesus}
+          src={church}
           alt="Welcoming church interior"
           className={styles.headerImage}
         />
