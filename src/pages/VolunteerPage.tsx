@@ -251,6 +251,8 @@ export default function VolunteerPage() {
       // Success toast!
     }
     if (error) {
+      setFormData({ name: '', email: '', interests: [] });
+      navigate('/');
         //Error toast and try again!
         // We don't need to reset state here since the error will be cleared when user tries again
     }
